@@ -31,13 +31,13 @@
   padding-left: 20rem;
   justify-content: space-evenly;
   width: 50%;
-  font-size: 15px;
+  font-size: 0.8rem;
   align-items: center;
 }
 
 .web-title{
   color: coral;
-  font-size: 20px;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   transition: 1s;
   font-weight: bold;
@@ -79,7 +79,7 @@
     border: transparent;
     border-bottom: 1px solid #BBB;
     padding: 2px 20px 0 0;
-    font-size: 10px;
+    font-size: 0.8rem;
     font-family: inherit;
     outline: none;
     color: #a0a0a1;
@@ -117,7 +117,7 @@
 
 .menu{
     cursor: pointer;
-    font-size: 10px; 
+    font-size: 0.7rem; 
   }
 
 .menu:hover{

@@ -64,7 +64,7 @@
     background-color: #f8f8f8;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 0.9rem;
     padding: 12px 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -121,7 +121,7 @@
     background-color: #f8f8f8;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 0.9rem;
     width: 100%;
     padding: 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -167,7 +167,7 @@
     background-color: #f8f8f8;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 0.9rem;
     padding: 12px 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -179,7 +179,7 @@
     background-color: #f8f8f8;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 0.9rem;
     width: 100%;
     padding: 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
