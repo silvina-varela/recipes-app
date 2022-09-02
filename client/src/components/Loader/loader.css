@@ -1,0 +1,74 @@
+.load-dot{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+}
+
+.load-dot::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 50%;
+    z-index: -1;
+    animation: ripple 1.5s ease-out infinite;
+}
+
+.load-dot:first-child{
+    background-color: #f1b9af;
+}
+
+.load-dot:first-child::before{
+    animation-delay: 0.2s;
+}
+
+.load-dot:nth-child(2){
+    background-color: #ff9e9a;
+    transform: scale(0.9);
+}
+
+.load-dot:nth-child(2)::before{
+    animation-delay: 0.4s;
+}
+
+.load-dot:nth-child(3){
+    background-color: #f16957;
+    transform: scale(0.8);
+}
+
+.load-dot:nth-child(3)::before{
+    animation-delay: 0.6s;
+}
+
+.load-dot:nth-child(4){
+    background-color: #fa5d49;
+    transform: scale(0.7);
+}
+
+.load-dot:nth-child(3)::before{
+    animation-delay: 0.8s;
+}
+
+.load-dot:last-child{
+    background-color:#f84d40;
+    transform: scale(0.6);
+}
+
+.load-dot:last-child::before{
+    animation-delay: 1s;
+}
+
+@keyframes ripple{
+    from{
+        opacity: 1;
+        transform: scale(0);
+    }
+    to{
+        opacity: 0;
+        transform: scale(2.3);
+    }
+}

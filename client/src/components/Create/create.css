@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+/* Botones */
+.arrow-btn{
+    text-align:left;
+    padding-bottom: 1rem;
+}
+
+.create-btn{
+    padding: 12px 20px;
+    outline:none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    color: coral
+}
+
+.create-btn:disabled{
+    color:darkgray;
+    pointer-events:none;
+}
+
+.create-btn:hover {
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px #bdbdbd;
+}
+
+/* Cuerpo del formulario */
+.data-container{
+    padding-bottom: 2rem;
+}
+
+.create-body{
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-body{
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:35px;
+    width: 40%
+}
+
+/* Inputs */
+
+.inputs{
+    margin-top:10px;                        
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputs:focus {
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px #bdbdbd;
+}
+
+.title-input{
+    width: 100%;
+}
+
+.instructions-input{
+    width: 90%;
+    margin-left: 0.5rem;
+    height: 4rem;
+    resize: none;
+    vertical-align: bottom;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.diet-drop{
+    border:none;
+    font-family: inherit;
+    cursor: pointer;
+    text-overflow: '';
+    font-size: 1rem;
+    outline: none;
+}
+
+.delete-diet{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+.image-input{
+    width:100%
+}
+
+.number-range{
+    outline:none;
+    margin-top:10px;                        
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100%;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.number-range:focus {
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px #bdbdbd;
+}
+
+.summary-input{
+    resize: none;
+    width: 100%;
+    height: 150px;
+}
+
+.dish-select{
+    accent-color: darkgray;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    vertical-align:bottom;
+}
+
+.dish-label{
+    display:inline-block;
+    padding-left: 18px;
+    text-indent: -15px;
+    height:60%;
+    font-size: 0.8rem;
+}
+
+
+/*Inputs con error */
+.asterisk{
+    color: red;
+}
+
+.inputs-w{
+    outline-color: red;
+    margin-top:10px;  
+    border: 1px solid;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.number-range-w{
+    outline: red;
+    margin-top:10px;                        
+    border: 1px solid red;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 100%;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.warning-text{
+    color: red;
+    font-size:0.8rem;
+    padding-left: 0.7rem;
+    padding-top:0.4rem;
+}
+
+.arrow-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+}
+
+.inst-btn{
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    display:inline-block;
+    vertical-align: middle;
+    padding-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inst-btn:hover{
+    color:lightgray;
+}
+
+
+

@@ -1,0 +1,9 @@
+export const GET_RECIPES = 'GET_RECIPES';
+export const GET_DETAIL = 'GET_DETAIL';
+export const RESET_DETAIL = 'RESET_DETAIL'
+export const GET_DIETS = 'GET_DIETS';
+export const FILTER_DIET = 'FILTER_DIET';
+export const SORT_RECIPES = 'SORT_RECIPES';
+export const SEARCH = 'SEARCH';
+export const CREATE_RECIPE = 'CREATE_RECIPE';
+export const RESET = 'RESET'

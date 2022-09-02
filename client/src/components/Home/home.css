@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.home-body{
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.not-found{
+    font-size: 20px;
+  }
+
+
+
+
+

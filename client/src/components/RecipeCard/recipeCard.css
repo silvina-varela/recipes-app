@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container{
+  margin: 5px;
+  width: 18rem;
+  height: 26rem;
+  border: 0.5px solid lightgrey;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in; 
+}
+
+.image{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recipe-title{
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: black;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.diets{
+  padding: 0 1rem;
+  font-weight: lighter;
+  color: rgb(119, 116, 116)
+}
+
+.dishes{
+  font-weight: lighter;
+  padding: 0.5rem 1rem;
+  color: rgb(119, 116, 116);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.numeric-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  background: transparent;
+  color: #d50000;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.health-minutes{
+  font-size: 0.65rem;
+}
+
+.heart{
+  font-variation-settings: 'FILL' 1;
+}
+
+.card-container:hover{
+  transform: scale(1.02);
+  box-shadow: 6px 6px coral;
+}
+
+

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-bg{
+    background: url("https://i.postimg.cc/Hk0QQByq/landing-Background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(194, 194, 194, 0.5);
+    border: 2px solid white;
+    border-radius: 20px;  
+    border-top-left-radius: 0px;
+    min-height: 200px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Minion Pro', serif;
+    color: white;
+}
+
+.info-text{
+    font-family: 'Futura', serif;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    width: 60%;
+}
+
+
+.explore-btn{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    width: min-content;
+    height: min-content;
+    margin-top: 2rem;
+    padding: 10px 30px;
+    border: white solid 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 10px;
+    transition-duration: 1s;
+}
+
+.explore-btn:hover {
+    background-color: white; 
+    color: black;
+  } 
+
+/* Ajusta el tamaño según la pantalla*/
+@media screen and (min-width: 601px) {
+    .title {
+      font-size: 35px;
+    }
+    .info-text{
+        font-size: 20px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .title {
+      font-size: 25px;
+    }
+    .info-text{
+        font-size: 15px;
+}
+
+.explore-btn{
+    margin-top: 20px;;
+    padding: 5px 14px;    
+    font-size: 10px;
+    }
+}

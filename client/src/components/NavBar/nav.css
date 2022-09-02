@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.fixed-menu{
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.212);
+  height:8vh;
+  z-index: 3;
+  background-color: white;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  min-height: 8vh;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.navlinks{
+  display: flex;
+  list-style: none;
+  padding-left: 20rem;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 15px;
+  align-items: center;
+}
+
+.web-title{
+  color: coral;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: 1s;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.web-title:hover{
+  color: rgba(255, 127, 80, 0.397);
+}
+
+.link{
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding-right: 1rem;
+}
+
+.link a{
+  color: coral;
+  text-decoration: none;
+}
+
+.link a:hover{
+  color: red;
+}
+
+.search-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  background: transparent;
+  }
+  
+.input-text{
+    line-height: 30px;
+    border: transparent;
+    border-bottom: 1px solid #BBB;
+    padding: 2px 20px 0 0;
+    font-size: 10px;
+    font-family: inherit;
+    outline: none;
+    color: #a0a0a1;
+    cursor: pointer;   
+}
+
+.input-text:focus{
+    cursor: text;
+  } 
+
+.input-text:hover{
+    opacity: 0.8;
+  }
+
+.searchButtom {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    transition: opacity .4s ease;
+  }
+    
+.input-text::after {
+    clear: both;
+    display: table;
+} 
+
+/* menú responsive*/
+.toggle{
+  cursor: pointer;
+  color: coral;
+  display: none;
+}
+
+.menu{
+    cursor: pointer;
+    font-size: 10px; 
+  }
+
+.menu:hover{
+    opacity: 0.5;
+  }
+
+  /*botones del menú*/
+.menu-plus{
+    transform: rotate(45deg);
+    transition-duration: 1s;
+}
+.menu-x{
+    transition-duration: 1s;
+ }
+ 
+@media screen and (max-width: 850px){
+  .toggle{
+    display: block;
+  }
+  .navlinks{
+    display: none;
+  }
+  .active{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    height: 92vh;
+    align-items: center;
+    width: 100%;
+    top: 8vh;
+    background-color: white;
+    z-index: 3;  
+  }
+}
