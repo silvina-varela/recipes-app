@@ -30,11 +30,7 @@ const NavBar = ({handleGoHome}) => {
     const handleEnter = e => {
         e.preventDefault();
         if(e.key === 'Enter'){
-            if(typeof parseInt(searchTerm) === 'number'){
-                dispatch(searchHealth(parseInt(searchTerm)))
-            }else{
-                dispatch(search(searchTerm));
-            }
+            dispatch(search(searchTerm));
             setSearchTerm('');
             setMenuOpen(false);             
         }

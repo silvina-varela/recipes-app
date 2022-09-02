@@ -39,7 +39,7 @@ export const filterDiet = (diet) => {
 
 export const getDetail = (id) => {
     return async dispatch => {
-        return await axios.get(`https://food-henry-sv.herokuapp.com/details/${id}`)
+        return await axios.get(`https://food-henry-sv.herokuapp.com/recipes/${id}`)
             .then(detail => dispatch({type: GET_DETAIL, payload: detail.data}))
             .catch(error => dispatch({type: GET_DETAIL, payload: error.message}))
     } 

@@ -25,12 +25,12 @@ const DetailCard = (props) => {
 
     /* Seteo imágenes por default según algunos dishtypes */
     // Si por alguna razón la imagen llega null o con un length inválido:
-    if(typeof image === 'object' || image?.length < 7) {
+    if(typeof selectedRecipe.image === 'object' || selectedRecipe.image?.length < 7) {
         // ['main course', 'breakfast', 'brunch','lunch', 'dinner', 'snack']
-        if(dishTypes?.includes('dessert')) image = "https://i.postimg.cc/Pq2Y7JKK/place-Holder-dessert.jpg";
-        else if(dishTypes?.includes('side dish')) image = "https://i.postimg.cc/MTHVJwFw/place-Holder-side-Dish.jpg";
-        else if (dishTypes?.includes('snack')) image = "https://i.postimg.cc/nzW7HWyD/place-Holder-snack.jpg";
-        else image = 'https://i.postimg.cc/3W5vGvJr/place-Holder-Image.jpg';
+        if(selectedRecipe.dishTypes?.includes('dessert')) selectedRecipe.image = "https://i.postimg.cc/Pq2Y7JKK/place-Holder-dessert.jpg";
+        else if(selectedRecipe.dishTypes?.includes('side dish')) selectedRecipe.image = "https://i.postimg.cc/MTHVJwFw/place-Holder-side-Dish.jpg";
+        else if (selectedRecipe.dishTypes?.includes('snack')) selectedRecipe.image = "https://i.postimg.cc/nzW7HWyD/place-Holder-snack.jpg";
+        else selectedRecipe.image = 'https://i.postimg.cc/3W5vGvJr/place-Holder-Image.jpg';
     }
 
 // Si el reducer mandó un string significa que la receta a la que se quiere acceder por params no existe

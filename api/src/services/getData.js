@@ -74,12 +74,11 @@ const getRecipes = async () => {
 // Detalle por ID
 const getRecipeById = async (id) => {
     let recipes = await getRecipes();
-    let recipeById = await recipes.filter(r => r.id == id); // me devuelve un array con un objeto
+    let recipeById = await recipes.find(r => r.id == id);
     
     
-    if (recipeById.length !== 0){ // valida que exista 
-        let details = recipeById[0]; // [{}]
-        return details; //{}
+    if (recipeById.length !== 0){
+        return recipeById; 
     }
     else throw new Error('The recipe doesn\'t exist')
 }
