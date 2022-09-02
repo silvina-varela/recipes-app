@@ -5,10 +5,10 @@
 }
 
 .card-container{
-  margin: 5px;
+  margin: 0.313rem;
   width: 18rem;
   height: 26rem;
-  border: 0.5px solid lightgrey;
+  border: 0.031rem solid lightgrey;
   border-radius: 0.2rem;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@
 
 .card-container:hover{
   transform: scale(1.02);
-  box-shadow: 6px 6px coral;
+  box-shadow: 0.3rem 0.3rem coral;
 }
 
 
