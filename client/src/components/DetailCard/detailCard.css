@@ -20,7 +20,7 @@
   }
 
 .detail-container{
-    width: 600px;
+    width: 37.5rem;
     margin-top: 1px;
     
 }
@@ -52,8 +52,8 @@
     flex-direction: column;
     margin: 5px;
     margin-top: 50vh;
-    width: 40rem;
-    height: 40rem;
+    width: 45rem;
+    height: 45rem;
 }
 
 .info-container{
@@ -67,7 +67,7 @@
 
 .detail-title{
     padding-bottom: 2rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     overflow:hidden;
     text-overflow: ellipsis;
 } 
@@ -80,7 +80,7 @@
 .diet-dish{
     font-weight: lighter;
     color: rgb(119, 116, 116);
-    font-size: 0.8rem; 
+    font-size: 1rem; 
 }
   
 .diet-dish span{
@@ -99,8 +99,8 @@
 
 .detail-image{
     border-radius: 3px;
-    width: 20rem;
-    height: 15rem;
+    width: 21rem;
+    height: 16rem;
     object-fit: cover;
     margin-right: 2rem;
 }

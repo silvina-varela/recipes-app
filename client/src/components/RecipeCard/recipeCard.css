@@ -5,9 +5,9 @@
 }
 
 .card-container{
-  margin: 0.313rem;
-  width: 18rem;
-  height: 26rem;
+  margin: 0.3rem;
+  width: 21rem;
+  height: 28rem;
   border: 0.031rem solid lightgrey;
   border-radius: 0.2rem;
   display: flex;
