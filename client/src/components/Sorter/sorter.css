@@ -40,7 +40,7 @@
     cursor: pointer;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 0.8rem;
+    font-size: 1rem;
     outline: none;
     color: rgb(73, 73, 73);
 }

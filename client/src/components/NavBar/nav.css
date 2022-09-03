@@ -37,7 +37,7 @@
 
 .web-title{
   color: coral;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   letter-spacing: 1px;
   transition: 1s;
   font-weight: bold;
@@ -54,7 +54,7 @@
 .link{
   font-weight: bold;
   font-size: 0.8rem;
-  padding-right: 1rem;
+  padding-right: 0.7rem;
 }
 
 .link a{

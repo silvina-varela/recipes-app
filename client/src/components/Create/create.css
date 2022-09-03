@@ -9,7 +9,7 @@
 /* Botones */
 .arrow-btn{
     text-align:left;
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
 }
 
 .create-btn{
@@ -43,7 +43,7 @@
 
 .create-body{
     display: flex;
-    padding-top: 80px;
+    padding-top: 7rem;
     align-items: center;
     flex-direction: column;
 }

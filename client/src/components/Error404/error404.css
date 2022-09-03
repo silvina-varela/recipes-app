@@ -1,0 +1,28 @@
+.error404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.error-btn{
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: black;
+    padding: 10px 30px;
+    border: black solid 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition-duration: 1s;
+}
+
+.error-btn:hover {
+    background-color: coral; 
+    color: white;
+    border: transparent solid 1px;
+  } 

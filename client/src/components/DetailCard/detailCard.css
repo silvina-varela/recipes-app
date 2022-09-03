@@ -12,7 +12,7 @@
 }
 
 .detail-body{
-    margin-top:15rem;
+    margin-top:20rem;
     font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(82, 81, 81);
@@ -92,7 +92,7 @@
     flex-direction: column;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
     color: #d50000;
 }
@@ -119,6 +119,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
     border-radius: 3px 3px 0 0;
+    font-size: 1.1rem;
 }
 
 .detail-tab:hover, .tab:checked + .detail-tab{
@@ -152,7 +153,7 @@
 }
 
 .detail-summary{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: darkgray;
     margin-bottom: 1.5rem;
     overflow-y: hidden;
@@ -167,7 +168,7 @@ a {
   }
 
 .detail-inst{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: darkgray;
     margin-bottom: 1.5rem;
     overflow-y: hidden;
