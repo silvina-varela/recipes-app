@@ -145,7 +145,7 @@ const Create = () => {
     
 return(
         <div>
-        <NavBar/>
+        <NavBar />
                      
              <div className='create-body'>
              <div className='arrow-btn'><Link to='/home'><button className='return-btn'><span className="material-symbols-outlined">keyboard_backspace</span></button></Link></div>

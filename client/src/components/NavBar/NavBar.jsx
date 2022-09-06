@@ -7,7 +7,6 @@ import './nav.css';
 
 const NavBar = ({handleGoHome}) => {
     const dispatch = useDispatch();
-
     // Estado inicial para la búsqueda
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -20,10 +19,10 @@ const NavBar = ({handleGoHome}) => {
     /* Búsqueda al apretar botón */
     const handleSubmit = e => {
         e.preventDefault();
-        dispatch(search(searchTerm));
-               
+        dispatch(search(searchTerm));       
         setSearchTerm('');
         setMenuOpen(false);
+ 
     }
 
     /* Búsqueda al apretar enter */
@@ -32,7 +31,7 @@ const NavBar = ({handleGoHome}) => {
         if(e.key === 'Enter'){
             dispatch(search(searchTerm));
             setSearchTerm('');
-            setMenuOpen(false);             
+            setMenuOpen(false);    
         }
     }
 
