@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const getRecipes = () => {
     return async (dispatch) => {
-        return await axios.get('https://food-henry-sv.herokuapp.com/recipes') 
+        return await axios.get('https://food-app-4ifl.onrender.com/recipes') 
         .then(recipes => dispatch({type: GET_RECIPES, payload: recipes.data}))
         .catch(error => dispatch({tupe: GET_RECIPES, payload: error}))
     }
@@ -12,14 +12,14 @@ export const getRecipes = () => {
 
 export const getDiets = () => {
     return async (dispatch) => {
-        return await axios.get('https://food-henry-sv.herokuapp.com/diets')
+        return await axios.get('https://food-app-4ifl.onrender.com/diets')
         .then(diets => dispatch({type: GET_DIETS, payload: diets.data}))
     }
 } 
 
 export const search = (search) => {
     return async (dispatch) => {
-        return await axios.get(`https://food-henry-sv.herokuapp.com/recipes?title=${search}`)
+        return await axios.get(`https://food-app-4ifl.onrender.com/recipes?title=${search}`)
             .then(recipes => dispatch({type: SEARCH, payload: recipes.data}))
             .catch(error => dispatch({type: SEARCH, payload: error.message})) // error.message es 'Request failed...' (string)
     }
@@ -39,7 +39,7 @@ export const filterDiet = (diet) => {
 
 export const getDetail = (id) => {
     return async dispatch => {
-        return await axios.get(`https://food-henry-sv.herokuapp.com/recipes/${id}`)
+        return await axios.get(`https://food-app-4ifl.onrender.com/recipes/${id}`)
             .then(detail => dispatch({type: GET_DETAIL, payload: detail.data}))
             .catch(error => dispatch({type: GET_DETAIL, payload: error.message}))
     } 
@@ -60,7 +60,7 @@ export const reset = (payload) => {
 
 export const create = (payload) => {
     return async dispatch => {
-        return await axios.post('https://food-henry-sv.herokuapp.com/create', payload)
+        return await axios.post('https://food-app-4ifl.onrender.com/create', payload)
             .then(recipe => dispatch({type: CREATE_RECIPE, payload: recipe.data}))
     }
 }
